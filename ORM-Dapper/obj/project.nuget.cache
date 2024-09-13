@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "koGmLKBR6wJhBLTN1OoI6FzGeJiAPNWbDjy33J5YenLAJHGwnEo6Ux/28C8eaBjdEIfv8DSjhatgCExrp1KcrA==",
+  "dgSpecHash": "BU5LjFsGvBTfbVi2NxZhZfO3U2TdyhtsQfXay2DsTimNku11uqxQjpryEQeTPf7wKrjdgrTC1hm3017KM2FTog==",
   "success": true,
-  "projectFilePath": "\\\\vmware-host\\Shared Folders\\Desktop\\ORM-and-Dapper-Exercise\\ORM-Dapper\\ORM-Dapper.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\0ni\\Desktop\\repos\\ORM-and-Dapper-Exercise\\ORM-Dapper\\ORM-Dapper.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\0ni\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.33\\microsoft.netcore.app.ref.6.0.33.nupkg.sha512",
+    "C:\\Users\\0ni\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.33\\microsoft.windowsdesktop.app.ref.6.0.33.nupkg.sha512",
+    "C:\\Users\\0ni\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.33\\microsoft.aspnetcore.app.ref.6.0.33.nupkg.sha512",
+    "C:\\Users\\0ni\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.33\\microsoft.netcore.app.host.win-x64.6.0.33.nupkg.sha512"
+  ],
   "logs": []
 }
