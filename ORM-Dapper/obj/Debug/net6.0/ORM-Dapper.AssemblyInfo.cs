@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ORM-Dapper")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4ea2b2f60efbc58716051b44713dfb2718df8862")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+378544d2c7a3c4c022bb8e3979ae302ade236da0")]
 [assembly: System.Reflection.AssemblyProductAttribute("ORM-Dapper")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ORM-Dapper")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

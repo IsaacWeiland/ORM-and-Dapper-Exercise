@@ -16,13 +16,13 @@ namespace ORM_Dapper
             IDbConnection conn = new MySqlConnection(connString);
             // Creates an instance of the DDR \/
             var departmentRepo = new DapperDepartmentRepository(conn);
-
+            departmentRepo.InsertDepartment("New Really Cool Department");
             var departments = departmentRepo.GetAllDepartments();
             foreach (var department in departments)
             {
                 Console.WriteLine(department.DepartmentID);
                 Console.WriteLine(department.Name);
-                Console.WriteLine("/n");
+                Console.WriteLine("\n");
             }
         }
     }
