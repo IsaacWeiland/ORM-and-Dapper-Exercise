@@ -24,6 +24,20 @@ namespace ORM_Dapper
                 Console.WriteLine(department.Name);
                 Console.WriteLine("\n");
             }
+
+            var prodRepo = new DapperProductRepo(conn);
+            prodRepo.CreateProduct("Big Stan's Fishing Fun", 100.00, 8);
+            var products = prodRepo.GetAllProducts();
+            foreach (var product in products)
+            {
+                Console.WriteLine(product.ProductID);
+                Console.WriteLine(product.Name);
+                Console.WriteLine(product.Price);
+                Console.WriteLine(product.CategoryID);
+                Console.WriteLine(product.OnSale);
+                Console.WriteLine(product.StockLevel);
+                Console.WriteLine("\n");
+            }
         }
     }
 }
